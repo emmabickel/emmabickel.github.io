@@ -1,0 +1,43 @@
+body {
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm281-adj-037.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=bed451811a5d38b925adbb858c1ef14e");
+    background-size:cover;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: darkslategray;
+    
+}
+[data-tab-content] {
+    display:none;
+}
+
+.active[data-tab-content] {
+    display:block;
+}
+
+.tabs {
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid darkslategray;
+}
+
+.tab{
+    cursor: pointer;
+    padding: 10px;
+
+}
+
+.tab.active{
+    background-color: #CCC;
+
+}
+
+.tab:hover{
+    background-color: #AAA;
+}
