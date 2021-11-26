@@ -8,36 +8,66 @@ h1 {
     text-align: center;
     font-size: 300%;
     color: darkslategray;
+    border-bottom: solid
     
 }
-[data-tab-content] {
-    display:none;
+
+h2 {
+    text-align: center;
+    font-size: 250%;
+    color: darkslategray;
 }
 
-.active[data-tab-content] {
-    display:block;
+h3 {
+    text-align: center;
+    font-size: 150%;
+    color: darkslategray;
 }
 
-.tabs {
-    display: flex;
-    justify-content:space-around;
+
+p {
+    text-align: center;
+    font-size: 200%;
+    color: darkslategray
+}
+nav {
+    float: left;
+    height: 100vh;
+    padding: 15px;
+}
+
+ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    border-bottom: 1px solid darkslategray;
+    margin: 0;
 }
 
-.tab{
-    cursor: pointer;
-    padding: 10px;
-
+.img {
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 30%;
 }
 
-.tab.active{
-    background-color: #CCC;
+.football {
+    
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 50%;
 
 }
-
-.tab:hover{
-    background-color: #AAA;
+li a {
+    background-color: white;
+    color: darkslategray;
+    padding: 1em 1.5em;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 5px;
+    border-radius: 200px;
 }
+
+    li a:hover {
+        background-color: #AAA;
+    }
